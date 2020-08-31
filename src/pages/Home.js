@@ -8,24 +8,24 @@ import Search from "../components/Search";
 function Home() {
   return (
     <div className="home">
-      <div class="home__header">
-        <div class="home__headerLeft">
+      <div className="home__header">
+        <div className="home__headerLeft">
           <Link to="/about">About</Link>
           <Link to="/store">Store</Link>
         </div>
-        <div class="home__headerRight">
+        <div className="home__headerRight">
           <Link to="/gmail">Gmail</Link>
           <Link to="/images">Images</Link>
           <AppsIcon />
           <Avatar />
         </div>
       </div>
-      <div class="home__body">
+      <div className="home__body">
         <img
           src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
           alt=""
         />
-        <div class="home__inputContainer">
+        <div className="home__inputContainer">
           <Search />
         </div>
       </div>

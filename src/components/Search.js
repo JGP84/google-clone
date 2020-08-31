@@ -23,7 +23,7 @@ function Search({ hideButtons = false }) {
 
   return (
     <form className="search">
-      <div class="search__input">
+      <div className="search__input">
         <SearchIcon className="search__inputIcon" />
         <input
           placeholder="Search Google or type a URL"
@@ -34,14 +34,14 @@ function Search({ hideButtons = false }) {
       </div>
 
       {!hideButtons ? (
-        <div class="search__buttons">
+        <div className="search__buttons">
           <Button type="submit" onClick={search} variant="outlined">
             Google Search
           </Button>
           <Button variant="outlined">I'm Feeling Lucky</Button>
         </div>
       ) : (
-        <div class="search__buttonsHidden">
+        <div className="search__buttonsHidden">
           <Button
             className="search__buttonsHidden"
             type="submit"
